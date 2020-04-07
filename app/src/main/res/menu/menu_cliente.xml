@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_fundos"
+        android:icon="@drawable/ic_valor"
+        android:title="@string/adicionar_fundos" />
+
+    <item
+        android:id="@+id/ligar"
+        android:icon="@drawable/ic_telefone"
+        android:title="@string/ligar_para_o_cliente" />
+
+    <item
+        android:id="@+id/add_corrida_cliente"
+        android:icon="@drawable/ic_moto"
+        android:title="@string/adicionar_corrida" />
+
+    <item
+        android:id="@+id/remove_cliente"
+        android:icon="@drawable/ic_remover"
+        android:title="@string/remove_cliente" />
+
+</menu>

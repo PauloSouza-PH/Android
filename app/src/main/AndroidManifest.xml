@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paulosouza.easymoto3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:fullBackupContent="true">
+
+     <activity android:name=".classes_principais.Splash"
+                  android:label="Easy Moto"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme.NoActionBar">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".classes_principais.MainActivity"
+            android:label="Easy Moto"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".classes_principais.CorridaAvulsa"
+            android:screenOrientation="portrait"
+            android:label="Registrar corrida" />
+        <activity
+            android:name=".classes_principais.Despesas"
+            android:screenOrientation="portrait"
+            android:label="Despesas" />
+        <activity
+            android:name=".classes_principais.gerenciar_clientes"
+            android:screenOrientation="portrait"
+            android:label="Gerenciamento de Cliente" />
+        <activity
+            android:name=".classes_principais.Gerenciar_Contas"
+            android:screenOrientation="portrait"
+            android:label="Gerenciamento das Contas" />
+    </application>
+
+</manifest>

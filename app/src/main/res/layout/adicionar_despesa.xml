@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68696c"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Spinner
+        android:id="@+id/spinner_despesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#d6d1bf"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_valor"
+        android:gravity="center"
+        android:textColor="#d6d1bf"
+        android:textSize="18sp"
+        android:text="@string/valor_da_despesa"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/id_valor_despesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="@drawable/border_edittext"
+        android:textColor="#d6d1bf"
+        android:inputType="numberDecimal"
+        android:labelFor="@+id/id_valor_despesa"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textview_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/var_texto"
+        android:textColor="#d6d1bf"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/id_edt_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#d6d1bf"
+        android:inputType="numberDecimal"
+        android:background="@drawable/border_edittext"
+        android:labelFor="@+id/id_edt_texto"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_add_despesa"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/drw_btn_salvar_contato"
+            android:contentDescription="@string/salvar_despesa"
+            android:text="@string/salvar_despesa"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68696c"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#d6d1bf"
+        android:drawableLeft="@drawable/ic_valor"
+        android:gravity="start"
+        android:text="@string/valor_da_corrida"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/id_valor_corrida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#d6d1bf"
+        android:background="@drawable/border_edittext"
+        android:inputType="numberDecimal"
+        android:labelFor="@+id/id_valor_corrida"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#d6d1bf"
+        android:drawableLeft="@drawable/ic_nome_do_cliente"
+        android:gravity="start"
+        android:text="@string/nome_do_cliente"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/id_nome_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_edittext"
+        android:gravity="center"
+        android:textColor="#d6d1bf"
+        android:inputType="textCapSentences|textAutoComplete|textPersonName"
+        android:labelFor="@+id/id_nome_cliente"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#d6d1bf"
+        android:drawableLeft="@drawable/ic_telefone"
+        android:gravity="start"
+        android:text="@string/telefone_do_cliente"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/id_telefone_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#d6d1bf"
+        android:background="@drawable/border_edittext"
+        android:inputType="phone|textAutoComplete"
+        android:labelFor="@+id/id_telefone_cliente"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/drw_btn_salvar_contato"
+            android:contentDescription="@string/salvar_contato"
+            android:text="@string/confirmar_corrida"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

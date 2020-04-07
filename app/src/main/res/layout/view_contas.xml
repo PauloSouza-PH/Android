@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#68696c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_margin="30dp">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/btn_dt_inicial"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_date_range"
+            android:background="@drawable/drw_btn_salvar_contato"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_weight="5"
+        android:id="@+id/visao_contas"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:divider="#f1ce2b"
+        android:dividerHeight="1dp"
+        android:layout_height="0dp"
+        android:scrollbars="horizontal">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:drawableStart="@drawable/ic_valor"
+            android:id="@+id/id_totalizador"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#d6d1bf"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

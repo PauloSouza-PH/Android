@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#68696c"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/auto_complete_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableEnd="@drawable/ic_busca"
+        android:gravity="center"
+        android:textColor="#d6d1bf"
+        android:background="@drawable/border_edittext"
+        android:inputType="text"
+        android:labelFor="@+id/auto_complete_cliente"
+        android:text="@string/em_branco"
+        tools:ignore="LabelFor">
+
+    </EditText>
+
+    <ListView
+        android:id="@+id/listview_clientes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:dividerHeight="5dp"
+        android:verticalScrollbarPosition="right">
+
+        <requestFocus />
+    </ListView>
+
+</LinearLayout>

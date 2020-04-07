@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hora_viewcontas"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/ic_time"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="#d6d1bf"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/valor_viewContas"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/ic_valor"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="#d6d1bf"
+        android:layout_height="30dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:textSize="12sp"
+        android:textColor="#d6d1bf"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_receita"
+        android:layout_height="30dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnRemove_viewContas"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.4"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:drawableEnd="@drawable/ic_remover" />
+
+</LinearLayout>

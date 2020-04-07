@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "111977807890",
+    "firebase_url": "https://projeto-easymoto-e4b84.firebaseio.com",
+    "project_id": "projeto-easymoto-e4b84",
+    "storage_bucket": "projeto-easymoto-e4b84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111977807890:android:3886f161a0510ce3",
+        "android_client_info": {
+          "package_name": "com.example.paulosouza.easymoto3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111977807890-4hr7oepddkueqv16gan3jlmh40h6e93c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "111977807890-d93pvosjbp1jeicphlk5rps9nvq2ciht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paulosouza.easymoto3",
+            "certificate_hash": "d6831119841799c07985c37e4c15a57cf6b31538"
+          }
+        },
+        {
+          "client_id": "111977807890-vqtqf2ts1apinq6nsld579tubs1an26k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo4I6OXhPs9-IwJ0A2KhdU2bP9Fwgovdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111977807890-4hr7oepddkueqv16gan3jlmh40h6e93c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
